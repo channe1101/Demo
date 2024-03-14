@@ -1,0 +1,192 @@
+*{  padding: 0;
+    margin: 0;
+    box-sizing: border-box;}
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.tong{
+    width: 1140px;
+    height: auto;
+    background-color: rgb(233, 232, 228);
+    
+}
+.chinh{
+    width: 1140px;
+    height: 160px;
+    border-radius: 0;
+    background-color: rgb(244, 252, 252);
+}
+.tren{
+    width: 1110px;  
+    height: 150px;
+}
+.logo{
+    padding-left: 10%;
+    width: 1140px;
+    height: 150px;
+    position: relative;
+}
+.tong .tren a span{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.tong .tren .trai {
+    width: 40%;
+    height: 60%;
+    padding: 10px 20px; 
+    float: left;
+    
+}
+ .tren .trai ul li{
+    list-style-type: none;
+    display: inline-block; /*cho sang ngang*/
+    color: black;
+    padding-right: 5%;
+}
+.anhlogo{
+    padding-top: 4%;
+    width: 90px;
+    height: 90px;
+    float: left;
+}
+.logo h1{
+    padding-left: 30%;
+    padding-top:2%;
+    color: rgb(31, 3, 134);
+
+}
+.logo p{
+    padding-left: 30%;
+    color: rgb(24, 3, 109);
+}
+.tong .tren .phai{
+    width: 600px;
+    height:70%;
+    float: right;
+    margin-top: 2.5%;
+    margin-right: 2%;
+}
+.anh1{
+    float: left;
+    width: 300px;
+    height: 100%;
+}
+.anh2{
+    float: right;
+    width: 300px;
+    height: 100%;
+}
+.login{
+    width: 20%;
+    height: 10%;
+    float: right;
+    margin-right: -68%;
+    margin-top: 0.3%;
+    font-family: ha;
+    color: black;
+}
+.chinh .duoi{
+    padding-left: 10%;
+    background-color: rgb(69, 169, 250);
+    width: 100%;
+    height: 35px;
+    align-items: center;
+}
+.chinh .duoi ul a{
+    color: black;
+}
+.chinh .duoi ul li{
+    margin-right: 5%;
+    padding-left: 1.5%;
+    padding-top: 5px;
+    list-style-type: none;
+    display: inline-block; /*cho sang ngang*/
+    font-size: 15px;
+    padding-right: 7%;
+    font-family: ha;
+}
+
+.duoi a  :hover{
+   color: yellow;
+}
+.home li{
+    display: inline-block;
+}
+.chinh .duoi ul li span {
+    display: inline-block;
+    vertical-align: middle;
+}
+.phu{
+    width: 98%;
+    height: 1060px;
+    background-color: rgb(253, 253, 253);
+    margin: 3% 1% 1% 1%;
+    padding-left: 2%;
+    padding-top: 1%;
+    line-height: 1.5;
+}
+.phu h1{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    color: blue;
+}
+.phu h2{
+    font-size: 20px;
+}
+.phu h3{
+    font-size: 18px;
+}
+.phu .muontra{
+    padding-left: 17%;
+}
+.phu p{
+    font-size: 18px;
+    text-indent: 20px;
+}
+.phu .ghichu{
+    margin-left: 1%
+    
+}
+.cuoi{
+    padding-top: 2%;
+    padding-left: 2%;
+    width: 100%;
+    height: 160px;
+    background-color: rgb(41, 89, 221);
+    line-height: 2;
+}
+.cuoi h1{
+    font-size: 20px;
+    color: aliceblue;
+}
+.cuoi p{
+    font-size: 18px;
+    color: aliceblue;
+    line-height: 1.5;
+    font-family: he;
+}
+li{
+    display:block;
+}
+span{
+    display: inline;
+    vertical-align: middle;
+}
+@font-face {
+    font-family: ha ;
+    src: url(font/Roboto/Roboto-Medium.ttf);
+}
+@font-face {
+    font-family: hi;
+    src: url(font/Roboto/Roboto-Italic.ttf);
+}
+@font-face {
+    font-family: he;
+    src: url(font/Roboto/Roboto-Thin.ttf);
+}
+a{
+    text-decoration: none;
+}

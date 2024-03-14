@@ -1,0 +1,302 @@
+*{  padding: 0;
+    margin: 0;
+    box-sizing: border-box;}
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.tong{
+    width: 1140px;
+    height: 1600px;
+    background-color: rgb(233, 232, 228);
+    
+}
+.chinh{
+    width: 1140px;
+    height: 190px;
+    background-color: rgb(200, 253, 253);
+}
+.tren{
+    width: 1110px;  
+    height: 150px;
+}
+.logo{
+    padding-left: 10%;
+    width: 1140px;
+    height: 150px;
+    position: relative;
+}
+.tong .tren a span{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.tong .tren .trai {
+    width: 40%;
+    height: 60%;
+    padding: 10px 20px; 
+    float: left;
+    
+}
+ .tren .trai ul li{
+    list-style-type: none;
+    display: inline-block; /*cho sang ngang*/
+    color: black;
+    padding-right: 5%;
+}
+.anhlogo{
+    padding-top: 4%;
+    width: 90px;
+    height: 90px;
+    float: left;
+}
+.logo h1{
+    padding-left: 30%;
+    padding-top:2%;
+    color: rgb(31, 3, 134);
+
+}
+.logo p{
+    padding-left: 30%;
+    color: rgb(24, 3, 109);
+}
+.tong .tren .phai{
+    width: 600px;
+    height:70%;
+    float: right;
+    margin-top: 2.5%;
+    margin-right: 2%;
+}
+.anh1{
+    float: left;
+    width: 300px;
+    height: 100%;
+}
+.anh2{
+    float: right;
+    width: 300px;
+    height: 100%;
+}
+.login{
+    width: 20%;
+    height: 10%;
+    float: right;
+    margin-right: -68%;
+    margin-top: 0.3%;
+    font-family: ha;
+    color: black;
+}
+.chinh .duoi{
+    padding-left: 10%;
+    background-color: rgb(69, 169, 250);
+    width: 100%;
+    height: 40px;
+    align-items: center;
+}
+.chinh .duoi ul a{
+    color: black;
+}
+.chinh .duoi ul li{
+    margin-right: 5%;
+    padding-left: 1.5%;
+    padding-top: 5px;
+    list-style-type: none;
+    display: inline-block; /*cho sang ngang*/
+    font-size: 20px;
+    padding-right: 7%;
+    font-family: ha;
+}
+
+.chinh .duoi a  :hover{
+   color: yellow;
+}
+.home li{
+    display: inline-block;
+}
+.chinh .duoi ul li span {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.phu{
+    width: 1140px;
+    height: 1900px;
+    background-color: #f0ecec;
+}
+.phu .trai{
+    margin-left: 1%;
+    margin-top: 1%;
+    margin-right: 1%;
+    width: 25%;
+    height: 96%;
+    float: left;
+    background-color: rgb(255, 255, 255);
+}
+.phu .trai .tren{
+    margin-left: 5%;
+    width: 90%;
+    height: 3%;
+    border-bottom: solid 2px blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.phu .trai .tren h1{
+    color: rgb(31, 108, 180);
+    font-size: 20px
+}
+.phu .trai .duoi{
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 90%;
+    height: 70%;
+}
+.phu .trai .duoi .khoi{
+    width: 90%;
+    height: 50px;
+    margin-top: 1%;
+    margin-left: 4%;
+
+    display: flex;
+    align-items: center;
+    border-bottom: solid 1px rgb(189, 188, 188);
+}
+.phu .trai .duoi .khoi a{
+    font-size: 18px;
+    font-family: hi;
+    color: rgb(59, 54, 54);
+}
+.phu .trai .duoi .khoi a:hover{
+    color: rgb(21, 106, 163);
+}
+.phu .phai{
+    margin-right: 1%;
+    margin-top: 1%;
+    width: 72%;
+    height: 96%;
+    float: right;
+    background-color: rgb(255, 255, 255);
+}
+.phu .phai .phai1{
+    background-color: rgb(255, 255, 255);
+    padding-left: 10px;
+}
+
+.phu .phai .chon li{
+    list-style-type: none;
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    border-top: solid 0.7px rgb(204, 204, 204);
+    border-left: solid 0.7px rgb(212, 212, 212);
+    border-right: solid 0.7px rgb(196, 193, 193);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: center;
+    font-size: 22px;
+}
+h3{
+    margin-top: 30px;
+    font-size: 30px;
+    padding-left: 300px;
+
+}
+.center{
+    display: block;
+    justify-content: center;
+    
+}
+.bang{
+    margin-top: 40px;
+    max-width: 100%; /* Chiều rộng của bảng */
+    height: auto; /* Chiều cao của bảng */
+}
+.bang th, td{
+    border-right: 0.2px solid black;
+    border-top: 0.2px solid black;
+   
+    width: 150px;
+    height: 50px;
+    text-align: center;
+}
+.content{
+    background-color: rgb(227, 247, 247);
+    width: 90%;
+    max-height: auto;
+    margin-left: 45px;
+}
+form{
+    padding-left: 10px;
+    margin-top: 10px;
+    border-top: 1px solid burlywood;
+}
+.form-group{
+    margin-top: 5px;
+    width: 300px;
+    height: 30px;
+    font-size: 20px;
+}
+.form-group label{
+    width: 200px;
+    height: 20px;
+}
+.them{
+    width: 200px;
+    height: 30px;
+    margin-left: 140px;
+    margin-top: 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    
+}
+button:hover{
+    background-color: rgb(243, 252, 121);
+}
+.chucnang{
+    border-radius: 10px;
+    background-color: rgb(238, 131, 104);
+    width: 40px;
+    height: 20px;
+    display: inline-block;
+    color: black;
+}
+.cuoi{
+    padding-top: 2%;
+    padding-left: 2%;
+    width: 100%;
+    height: 160px;
+    background-color: rgb(41, 89, 221);
+    line-height: 2;
+}
+.cuoi h1{
+    font-size: 20px;
+    color: aliceblue;
+}
+.cuoi p{
+    font-size: 18px;
+    color: aliceblue;
+    line-height: 1.5;
+    font-family: he;
+}
+li{
+    display:block;
+}
+span{
+    display: inline;
+    vertical-align: middle;
+}
+@font-face {
+    font-family: ha ;
+    src: url(font/Roboto/Roboto-Medium.ttf);
+}
+@font-face {
+    font-family: hi;
+    src: url(font/Roboto/Roboto-Italic.ttf);
+}
+@font-face {
+    font-family: he;
+    src: url(font/Roboto/Roboto-Thin.ttf);
+}
+a{
+    text-decoration: none;
+}
